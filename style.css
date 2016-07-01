@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFEDDA;
+	background-color: rgba(255, 237, 218, 0.58);
+}
+
+/*<!-- border -->*/
+.top, .bottom, .left, .right {
+	background: #F1C3C2;
+	position: fixed;
+}
+
+.left, .right {
+	top: 0; 
+	bottom: 0;
+	width: 1em;
+}
+
+.left { 
+	left: 0; 
+}
+
+.right { 
+	right: 0; 
+}
+
+.top, .bottom {
+	left: 0; 
+	right: 0;
+	height: 1em;
+}
+
+.top { 
+	top: 0; 
+}
+
+.bottom { 
+	bottom: 0; 
+}
