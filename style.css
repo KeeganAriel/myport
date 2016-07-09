@@ -40,3 +40,32 @@ body {
 .bottom { 
 	bottom: 0; 
 }
+
+/*logo starting stage*/
+.logo-big {
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+}
+
+.logo-small {
+	width: 10em;
+	height: auto;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 5em;
+	font-family: 'Oswald', sans-serif;
+	color: #F1C3C2;
+	
+}
+h1 .logo-small {
+	vertical-align:middle;
+/*    margin-top: -13px;*/
+}
+
+h1 span {
+	margin-right: -.75em;
+	margin-left: -.75em;
+}
