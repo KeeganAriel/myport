@@ -2,21 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-<!-- 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
- -->
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Grand+Hotel|Oswald|" rel="stylesheet">
 
- 	<link rel="stylesheet" type="text/css" href="style.css">
- 	<link href='https://fonts.googleapis.com/css?family=Oswald|Grand+Hotel' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="js/app.js" ></script>
+
 	<title>KeeganAriel</title>
 </head>
-<body>
 
+<body>
 	<!-- border -->
 	<div class="left"></div>
 	<div class="right"></div>
@@ -26,8 +25,155 @@
 	<!-- logo starting stage -->
 	<img class="logo-big" src="images/logo.png">
 	
-	<!-- first section -->
-	<h1 class="heading">I'm <span><img class="logo-small" src="images/logo.png"></span>Web Developer extraordinaire!</h1>
-	
+	<!-- hidden on load -->
+
+		
+		<!-- nav bar -->
+		<div class="hideNav">
+		<nav class="navbar" id="myNav">
+			<a class="navbar-logo"><img src="images/smallLogo.png"></a></a>
+			<div class="nav-item">
+				<a class="nav-link" href="#home">Home</a>
+			</div>
+			<div class="nav-item">
+				<a class="nav-link" href="#featured">Featured Work</a>
+			</div>
+			<div class="nav-item">
+				<a class="nav-link" href="#aboutMe">About Me</a>
+			</div>
+			<div class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</div>
+		</nav>
+		</div>
+
+	<section class="mainSite">
+		<div id="home">
+			<h1 class="intro">I'm <span><img class="logo-smaller" src="images/logo.png"></span>Web Developer extraordinaire!</h1>
+
+			<img class="myPhoto" src="images/me.png">
+
+			<section class="love">
+					<h1> I love:</h1>
+					<h2> CSS <br> HTML <br> jQuery <br>&  <br> <b>Designing Cute Websites!</b> </h2>
+			</section> 
+		</h2>
+	</div>
+
+	<div id="featured">	
+		<section class="sites">
+			<h1>Nifty Sites I've Made:</h1>
+		</section>
+
+		<section class="site">
+
+<!-- 			<div class="thumbnail"> -->
+				<div class="caption">
+					<h3 class="title">Shopping List App</h3>
+					<p class="description">Nifty shoppping list app...<br>
+						<a href="https://keeganariel.github.io/shoppinglist/" class="list"><img src="sites/shoppingList.png" alt="..." class="siteImage"></a>
+					</p>
+<!-- 				</div> -->
+			</div>
+
+/
+				<div class="caption">
+					<h3 class="title">Hot and Cold</h3>
+					<p class="description">Number guessing game...<br>
+						<a href="https://keeganariel.github.io/hotncold/" class="link"><img src="sites/hotorcold.png" alt="..." class="siteImage"></a>
+					</p>
+				</div>
+
+
+
+
+				<div class="caption">
+					<h3 class="title">Tic Tac Toe</h3>
+					<p class="description">Let's play some Tic Tac Toe...<br>
+						<a href="https://keeganariel.github.io/ticTacToe/" class="link"><img src="sites/ticTacToe.png" alt="..." class="siteImage"></a>
+					</p>
+				</div>
+
+
+
+				<div class="caption">
+					<h3 class="title">90's Computer Quiz</h3>
+					<p class="description">Quiz app about the nerdest 90's movies...<br>
+						<a href="https://keeganariel.github.io/quiz/" class="link"><img src="sites/quiz.png" alt="..." class="siteImage"></a>
+					</p>
+				</div>	
+
+				<div class="caption">
+					<h3 class="title">searchTube</h3>
+					<p class="description">Search youTube for your favorite videos...<br>
+						<a href="https://keeganariel.github.io/youtubeApp/" class="link"><img src="sites/searchTube.png" alt="..." class="siteImage"></a>
+					</p>
+				</div>
+
+				<div class="caption">
+					<h3 class="title">newTunez</h3>
+					<p class="description">Search for the newest releases from artists you love...<br>
+						<a href="http://keeganariel.github.io/newTunez/" class="link"><img src="sites/NewTunes.png" alt="..." class="siteImage"></a>
+					</p>
+				</div>
+
+		</section>
+	</div>
+
+
+	<div id="aboutMe">
+		<section class="about">
+			<h1>About Me:</h1>
+
+				<p class="about">Born in the 80’s, with a love of power ballads, and all things My Little Pony, I’m Keegan Ariel. I was born in Portland, Oregon, I still live here and I love it! I am an up and coming programer and I am really excited to learn as many things as I can about how to be the best programer I can be! I feel really comfortable with HTML, CSS, and jQuery, but I especially love jQuery because of all the nifty responsive elements. 
+				</p>
+		</section>
+	</div>
+
+
+	<div id="contact">
+		<footer class="contactMe">
+
+			<h1>Contact Me:</h1>
+
+
+				<ul class="mail">
+					<li>
+						<a href="mailto:KeeganArielDesign@gmail.com?Subject=Let's%20code!" target="_top">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+
+			<ul class="social">
+				<h1>Find me on:</h1>
+				<li>
+					<a href="https://plus.google.com/u/0/110090200114227703503/about">
+						<i class="fa fa-google-plus" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/keegan_ariel">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/KeeganAriel">
+						<i class="fa fa-github-alt fa-3" aria-hidden="true"></i>
+					</a>
+				</li> 
+			</ul>
+			<section class="copyW">
+				<p> <i class="fa fa-copyright fa-1" aria-hidden="true"></i> 2016 KeeganAriel. All rights reserved.</p>
+			</section>
+		</footer>
+	</div>
+
+
+	</div>
+
+
+
+	</section>
 </body>
 </html>
